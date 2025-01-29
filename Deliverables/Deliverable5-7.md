@@ -1,17 +1,21 @@
-# **Project Progress [Number]**
+# **Project Progress [2]**
 
 ### Group number
+20
 
 ### Contributors
+Acelya, Friya, Amaar, Jamima, Isaac, Viktor, Tarif, Abdurashid
 
 
-# Sprint [Number] - Review and Retrospective
+# Sprint [2] - Review and Retrospective
 
 ### Sprint Review
+
 
 #### **Sprint Goal and Demoed Features**
 
 Sprint Goal: ***
+Develop and integrate the data gathered from daily surveys, such as mood, stress, and sleep plus additional information as progress goals. Bac
 
 | Demoed Feature | Feedback   |
 |----------------|------------|
@@ -63,6 +67,8 @@ instruction before submission.)
 ### Sprint Goal
 
 ### Sprint Leads
+Product Owner: Isaac
+Scrum Master : Aceyla 
 
 ### Sprint Backlog
 
