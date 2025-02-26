@@ -2,7 +2,7 @@
 
 ### Group number
 
-### Friya, Isaac, Jamima, Acelya, Viktor, Abdurashid, Amaar, Tarif
+### Friya, Isaac, Jamima, Acelya, Viktor, Abdurashid, Amaar, Tarif lol
 
 
 # Sprint 2 - Review and Retrospective
