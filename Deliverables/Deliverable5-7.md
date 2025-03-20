@@ -79,10 +79,22 @@ User can entry journal and can track goals
 |  003-7|   Integate database with backend | Jamima | No |
 
 
+#### Epic-User Story ID Survey Implementation - 009
+**Acceptance criteria:**
+User responses are stored in the database, and the survey logic is fully functional with backend integration.
+
+| **Task ID** | **Description** | **Assigned To** | **Done?** |
+|------------|----------------|----------------|-----------|
+| 009-1 | Merge the survey-related code into the main branch incrementally | Abdurashid | Yes |
+| 009-2 | Design and implement database schema for storing survey responses | Abdurashid | Yes |
+| 009-3 | Develop backend API endpoints for managing survey responses | Abdurashid | Yes |
+| 009-4 | Implement frontend-backend integration for survey submission | Abdurashid | Yes |
+| 009-5 | Test survey functionality end-to-end and fix bugs | Abdurashid | Yes |
+
+
+
 
 ### New/Revised Tasks
-
-**Instructions:** Add any new tasks coming from the review that wasn't previously in the backlog. Below is an example. Remove the example and add yours.
 
 ####  Epic-User Story ID User registration - 001
 
@@ -128,6 +140,17 @@ User can entry journal and can track goals
 |004-3| Integrate these two features with the navigaion bar
 
 
+#### Epic-User Story ID Survey Implementation - 006
+
+| **Task ID** | **Description** |
+|------------|-----------------|
+| 006-1 | Feedback section and reviews page implemented, displaying stored feedback. |
+| 006-2 | Feedback submission saves data to the database and retrieves it for display in the reviews page. |
+| 006-3 | Database implemented and set up, now storing feedback in the table. |
+| 006-4 | Tested and fixed bugs in frontend-backend connection. |
+| 006-5 | Feedback section is now fully functional. |
+
+
 
 
 
@@ -144,18 +167,14 @@ User can entry journal and can track goals
 
 # Sprint 4 Plan
 
-**Instructions:** Add your sprint goal, sprint leads, and fill the spring backlog. (Remove the instructions before submission.)
-
 ### Sprint Goal 
 complete back end and focus on integration
 
 ### Sprint Leads
-product owner
-scrum master
+product owner - Tarif Aziz
+scrum master - Abdurashid Fattokhov
 
 ### Sprint Backlog
-
-**Instructions:** Fill in your sprint backlog for each user story you have decided to implement in your sprint. Below is an example for how User Registration-001 is modified in the new Sprint backlog.  Remove the example, and fill it with user stories from project backlog (that serves the sprint goal), adding more sub-headings and tables as necessary. (Remove the instructions before submission.)
 
 1.  Epic-User Story ID Nearest well being centers  - 004
  **Acceptance criteria:**
@@ -167,7 +186,7 @@ scrum master
 |004-2 | a map is presented to the user | 10 | Friya|
 |004-3 | based on the post code inputed the map shows nearest well being centers  | 10 | Friya|
 
-1.  Epic-User Story ID User Data Management  - 005
+2.  Epic-User Story ID User Data Management  - 005
  **Acceptance criteria:**
  a user can download their data in a pdf format and delete it from the system
 
@@ -176,27 +195,33 @@ scrum master
 |005-1 | Ensure the database is merged with the main system(database) to store real user data | 10 | Isaac|
 
 
+1. Epic-User Story ID Reviews Page Implementation - 006  
+**Acceptance criteria:**  
+Users can see reviews from others and submit their own feedback.  
+
+| **Task ID** | **Description** | **Story Point** | **Assigned To** |
+|------------|----------------|----------------|----------------|
+| 006-1 | Ensure that the feedback database is merged with the main database | 8 | Abdurashid |
+| 006-2 | Fully merge frontend and backend for the feedback system into the main branch | 10 | Abdurashid |
+| 006-3 | Implement a Reviews Page where users can view feedback from others | 8 | Abdurashid |
+| 006-4 | Merge and integrate the Reviews Page with the main system | 10 | Abdurashid |
+
+
+
 
 
 # Appendix - Project Backlog
 
-*Instructions:** Remove the example, and fill it with your project backlog. In the example, we kept User Registration - 001 as not all of its tasks are complete. The review also added a revision on how the form should collect users' preferred food items. (Remove the instructions before submission)
 
 | Epic              | US ID* | As a .. | I want to .. | So that ... | F/NF/UI** | Priority|
 | ----------------- | ------ | ------------- | ------- | ------- |-------- | ----- |
 | Nearest well being centers | 004    |  user | view the nearest well being centers near me | I can improve my well being | F | High |
 | Nearest well being centers | 004    |  user | view the nearest well being centers on a map and as a list | i can locate the centers easier  | F | High |
 | Epic              | US ID* | As a .. | I want to .. | So that ... | F/NF/UI** | Priority|
-| ----------------- | ------ | ------------- | ------- | ------- |-------- | ----- |
 | User Data Management| 05   |  Developer | integrate user data with the main database | real user data can be stored in a main system  | F | High |
 | UI consistency | 006    |  developer|follow the user exisiting frontend styles throught the whole program| the UI looks consistent across the application | UI | Medium |
 |Entry Journal | 001| User | entry journal with/without prompt where I can edit or delete| I can express myself | F| High
 |Track Goals| 002| User | track my everyday goals where I can delete or edit them|I can improve myself to complete my task| F|High 
+| Reviews Page Implementation  | 010    | user       | view and submit reviews about the service       | I can share my feedback and see others' experiences | F         | High     |
+| Reviews Page Implementation  | 010    | developer  | integrate the reviews page with the main system | users can see and interact with feedback seamlessly | F         | High     |
 
-
-
-*User Story ID
-
-**F/NF/UI - Functional/Non-Functional/User Interface
-
-***You may have prioritised this low, as you are not planning production yet.
